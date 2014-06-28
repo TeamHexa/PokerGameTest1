@@ -13,7 +13,7 @@ package Objects;
 public class Card
 {
   private String suite;
-  private int value;
+  private String value;
 
     /**
      * @return the suite
@@ -32,14 +32,14 @@ public class Card
     /**
      * @return the value
      */
-    public int getValue() {
+    public String getValue() {
         return value;
     }
 
     /**
      * @param value the value to set
      */
-    public void setValue(int value) {
+    public void setValue(String value) {
         this.value = value;
     }
   
